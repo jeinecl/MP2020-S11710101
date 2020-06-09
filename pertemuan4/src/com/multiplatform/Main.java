@@ -3,10 +3,10 @@ package com.multiplatform;
 public class Main {
 
     public static void main(String[] args) {
-	    int myValue = 10000;
+        int myValue = 10000;
 
-	    int myMaxIntValue = Integer.MAX_VALUE;
-	    int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+        int myMinIntValue = Integer.MIN_VALUE;
         System.out.println("Integer Maximum INT Value = " + myMaxIntValue);
         System.out.println("Integer Minimum INT Value = " + myMinIntValue);
         System.out.println("Overflow max INT Value = " + (myMaxIntValue + 1));
@@ -32,13 +32,12 @@ public class Main {
         System.out.println("Integer Minimum LONG Value = " + myMinLongValue);
         System.out.println("Overflow max LONG Value = " + (myMaxLongValue + 1));
         System.out.println("Underflow min LONG Value = " + (myMinLongValue - 1));
-        
+
         long myBigLongValue = 2_147_483_647_234L;
 
         //Type Casting
         int myNewIntValue = (myMinIntValue / 2);
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
-
     }
 }
