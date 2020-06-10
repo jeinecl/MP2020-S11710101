@@ -1,0 +1,24 @@
+package com.multiplatform;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    float myMinFloatValue = Float.MIN_VALUE;
+	    float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Minimum Float Value = " + myMinFloatValue);
+        System.out.println("Maximum Float Value = " + myMaxFloatValue);
+
+        Double myMinDoubleValue = Double.MIN_VALUE;
+        Double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Minimum Double Value = " + myMinDoubleValue);
+        System.out.println("Maximum Double Value = " + myMaxDoubleValue);
+
+        int myIntegerNumber = 5/3;
+        float myFloatNumber = 5.00f / 3.00f;
+        double myDoubleNumber = 5.00d / 3.00d;
+        System.out.println(myIntegerNumber);
+        System.out.println(myFloatNumber);
+        System.out.println(myDoubleNumber);
+
+    }
+}
