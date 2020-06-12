@@ -16,6 +16,5 @@ public class Main {
         }
         int result = a + b;
         return  result;
-
     }
 }
