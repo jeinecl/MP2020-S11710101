@@ -2,13 +2,13 @@ package com.multiplatform;
 
 public class Monitor {
     private String model;
-    private String manufacture;
-    private  int size;
+    private String manufacturer;
+    private int size;
     private Resolution nativeResolution;
 
-    public Monitor(String model, String manufacture, int size, Resolution nativeResolution) {
+    public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
         this.model = model;
-        this.manufacture = manufacture;
+        this.manufacturer = manufacturer;
         this.size = size;
         this.nativeResolution = nativeResolution;
     }
@@ -21,8 +21,8 @@ public class Monitor {
         return model;
     }
 
-    public String getManufacture() {
-        return manufacture;
+    public String getManufacturer() {
+        return manufacturer;
     }
 
     public int getSize() {
